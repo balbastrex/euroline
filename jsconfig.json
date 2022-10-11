@@ -1,0 +1,6 @@
+// Archivo para usar rutas absolutas para importar componentes detro de la app 
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
