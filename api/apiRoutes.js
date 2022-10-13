@@ -11,6 +11,16 @@ export const getAllCategories = async () => {
   }
 };
 
+// NOTE: Category By Id
+export const getCategoryById = async (categoryId) => {
+  try {
+    const response = await clienteAxios.get(`/categories/find/8`);
+    return response.data;
+  } catch (error) {
+    "There are an error getting Categories", error;
+  }
+};
+
 // NOTE: Products by Category
 export const getProductsByCategory = async (categoryId) => {
   if (categoryId) {
@@ -280,6 +290,16 @@ export const deleteCustomerCartLine = async (lineId) => {
     const response = await clienteAxios.delete(
       `/shop/sales/carts/lines/${lineId}`
     );
+    return response;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+//NOTE: Search product by string (XIMO)
+export const getSearchProductByString = async (str) => {
+  try {
+    const response = await clienteAxios.get(`/shop/search/${str}`);
     return response;
   } catch (error) {
     console.log(error);

@@ -3,13 +3,13 @@ const Footer = () => {
     <footer>
       <div id="top-footer">
         <div className="container">
-          <h2>www.mipipo.es</h2>
+          <h2>www.convertcars.net</h2>
         </div>
       </div>
       <div id="footer">
         <div className="container">
           <div>
-            <h6>MI PIPO</h6>
+            <h6>CONVERT CARS</h6>
             <a href="#">Quiénes somos</a>
             <a href="#">Catálogo pdf</a>
             <a href="#">Anexo pdf</a>
@@ -32,7 +32,7 @@ const Footer = () => {
             <a href="#">Política de Privacidad</a>
           </div>
           <div className="boletin">
-            <h6>Boletín de noticias Mi Pipo</h6>
+            <h6>Boletín de noticias Convert Cars</h6>
             <form id="boletin">
               <input type="mail" placeholder="Escribe tu email" />
               <span></span>
@@ -48,10 +48,8 @@ const Footer = () => {
       <div id="copyright">
         <div className="container">
           <p>
-            &copy; MI PIPO - {new Date().getFullYear()}. Mi Pipo
-            <span className="simbolo">&reg;</span> y Personaliza su pequeño
-            mundo<span className="simbolo">&reg;</span> son marcas registradas
-            en España y otros países.
+            &copy; EUROLINE - {new Date().getFullYear()}. EUROLINE
+            <span className="simbolo">&reg;</span> es una marca registrada.
           </p>
         </div>
       </div>

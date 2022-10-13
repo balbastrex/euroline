@@ -1,5 +1,5 @@
 import Layout from "components/layout/Layout";
-import Cart from "components/cart/Cart";
+import Cart from "components/Cart/cart";
 
 const CartPage = () => {
   return (

@@ -66,9 +66,9 @@ function CategoriesGroup({
 }
 
 export async function getStaticPaths() {
-  const Allategories = await getAllCategories();
+  const AllCategories = await getAllCategories();
 
-  const paths = await Allategories.map((category) => ({
+  const paths = await AllCategories.map((category) => ({
     params: { slug: category.slug || "404" },
   }));
 
@@ -85,9 +85,9 @@ export async function getStaticProps({ params: { slug } }) {
   let productsByTag;
 
   try {
-    const Allategories = await getAllCategories();
+    const AllCategories = await getAllCategories();
 
-    Allategories.map((category) => {
+    AllCategories.map((category) => {
       if (category.slug === slug) {
         sortedCategory = category;
         categoryId = category.id;

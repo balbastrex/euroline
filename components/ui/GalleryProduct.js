@@ -19,11 +19,11 @@ export const GalleryProduct = (
                 <div key={designSelected.id} id={designSelected.id}>
                   <picture>
                     <source
-                      srcSet={`https://erp.skydone.net${designSelected.src}`}
+                      srcSet={`https://ecomm.skydone.net${designSelected.src}`}
                       type="image/webp"
                     />
                     <img
-                      src={`https://erp.skydone.net${designSelected.src}`}
+                      src={`https://ecomm.skydone.net${designSelected.src}`}
                       alt={designSelected.alt}
                     />
                   </picture>
@@ -39,11 +39,11 @@ export const GalleryProduct = (
                     <div key={picture.id} id={`foto-${picture.id}-${i++}-${i}`}>
                       <picture>
                         <source
-                          srcSet={`https://erp.skydone.net${picture.src}`}
+                          srcSet={`https://ecomm.skydone.net${picture.src}`}
                           type="image/webp"
                         />
                         <img
-                          src={`https://erp.skydone.net${picture.src}`}
+                          src={`https://ecomm.skydone.net${picture.src}`}
                           alt={picture.alt}
                         />
                       </picture>
@@ -56,11 +56,11 @@ export const GalleryProduct = (
                 <div key={designSelected.typography.id} id="typography">
                   <picture>
                     <source
-                      srcSet={`https://erp.skydone.net${designSelected.typography.src}`}
+                      srcSet={`https://ecomm.skydone.net${designSelected.typography.src}`}
                       type="image/webp"
                     />
                     <img
-                      src={`https://erp.skydone.net${designSelected.typography.src}`}
+                      src={`https://ecomm.skydone.net${designSelected.typography.src}`}
                       alt={designSelected.typography.alt}
                     />
                   </picture>
@@ -78,11 +78,11 @@ export const GalleryProduct = (
                     <div key={picture.id} id={`foto-${picture.id}-${i++}-${i}`}>
                       <picture>
                         <source
-                          srcSet={`https://erp.skydone.net${picture.src}`}
+                          srcSet={`https://ecomm.skydone.net${picture.src}`}
                           type="image/webp"
                         />
                         <img
-                          src={`https://erp.skydone.net${picture.src}`}
+                          src={`https://ecomm.skydone.net${picture.src}`}
                           alt={picture.alt}
                         />
                       </picture>
@@ -101,11 +101,11 @@ export const GalleryProduct = (
                   <div key={image.src} id={`foto-${image.id}-${i}`}>
                     <picture>
                       <source
-                        srcSet={`https://erp.skydone.net${image.src}`}
+                        srcSet={`https://ecomm.skydone.net${image.src}`}
                         type="image/webp"
                       />
                       <img
-                        src={`https://erp.skydone.net${image.src}`}
+                        src={`https://ecomm.skydone.net${image.src}`}
                         alt={image.alt}
                       />
                     </picture>
@@ -121,11 +121,11 @@ export const GalleryProduct = (
                   >
                     <picture>
                       <source
-                        srcSet={`https://erp.skydone.net${packProduct.main_image.src}`}
+                        srcSet={`https://ecomm.skydone.net${packProduct.main_image.src}`}
                         type="image/webp"
                       />
                       <img
-                        src={`https://erp.skydone.net${packProduct.main_image.src}`}
+                        src={`https://ecomm.skydone.net${packProduct.main_image.src}`}
                         alt={packProduct.main_image.alt}
                       />
                     </picture>
@@ -145,11 +145,11 @@ export const GalleryProduct = (
                       >
                         <picture>
                           <source
-                            srcSet={`https://erp.skydone.net${designImage.src}`}
+                            srcSet={`https://ecomm.skydone.net${designImage.src}`}
                             type="image/webp"
                           />
                           <img
-                            src={`https://erp.skydone.net${designImage.src}`}
+                            src={`https://ecomm.skydone.net${designImage.src}`}
                             alt={designImage.alt}
                           />
                         </picture>
@@ -170,11 +170,11 @@ export const GalleryProduct = (
                   <a key={designSelected.id} href={`#${designSelected.id}`}>
                     <picture>
                       <source
-                        srcSet={`https://erp.skydone.net${designSelected.src}`}
+                        srcSet={`https://ecomm.skydone.net${designSelected.src}`}
                         type="image/webp"
                       />
                       <img
-                        src={`https://erp.skydone.net${designSelected.src}`}
+                        src={`https://ecomm.skydone.net${designSelected.src}`}
                         alt={designSelected.alt}
                       />
                     </picture>
@@ -193,11 +193,11 @@ export const GalleryProduct = (
                       >
                         <picture>
                           <source
-                            srcSet={`https://erp.skydone.net${picture.src}`}
+                            srcSet={`https://ecomm.skydone.net${picture.src}`}
                             type="image/webp"
                           />
                           <img
-                            src={`https://erp.skydone.net${picture.src}`}
+                            src={`https://ecomm.skydone.net${picture.src}`}
                             alt={picture.alt}
                           />
                         </picture>
@@ -210,11 +210,11 @@ export const GalleryProduct = (
                   <a key={designSelected.typography.id} href="#typography">
                     <picture>
                       <source
-                        srcSet={`https://erp.skydone.net${designSelected.typography.src}`}
+                        srcSet={`https://ecomm.skydone.net${designSelected.typography.src}`}
                         type="image/webp"
                       />
                       <img
-                        src={`https://erp.skydone.net${designSelected.typography.src}`}
+                        src={`https://ecomm.skydone.net${designSelected.typography.src}`}
                         alt={designSelected.typography.alt}
                       />
                     </picture>
@@ -237,11 +237,11 @@ export const GalleryProduct = (
                       >
                         <picture>
                           <source
-                            srcSet={`https://erp.skydone.net${picture.src}`}
+                            srcSet={`https://ecomm.skydone.net${picture.src}`}
                             type="image/webp"
                           />
                           <img
-                            src={`https://erp.skydone.net${picture.src}`}
+                            src={`https://ecomm.skydone.net${picture.src}`}
                             alt={picture.alt}
                           />
                         </picture>
@@ -261,11 +261,11 @@ export const GalleryProduct = (
                       {/* {imageComponent(image.src, image.alt, "fixed", 60, 60)} */}
                       <picture>
                         <source
-                          srcSet={`https://erp.skydone.net${image.src}`}
+                          srcSet={`https://ecomm.skydone.net${image.src}`}
                           type="image/webp"
                         />
                         <img
-                          src={`https://erp.skydone.net${image.src}`}
+                          src={`https://ecomm.skydone.net${image.src}`}
                           alt={image.alt}
                         />
                       </picture>
@@ -281,11 +281,11 @@ export const GalleryProduct = (
                     >
                       <picture>
                         <source
-                          srcSet={`https://erp.skydone.net${packProduct.main_image.src}`}
+                          srcSet={`https://ecomm.skydone.net${packProduct.main_image.src}`}
                           type="image/webp"
                         />
                         <img
-                          src={`https://erp.skydone.net${packProduct.main_image.src}`}
+                          src={`https://ecomm.skydone.net${packProduct.main_image.src}`}
                           alt={packProduct.main_image.alt}
                         />
                       </picture>
@@ -305,11 +305,11 @@ export const GalleryProduct = (
                         >
                           <picture>
                             <source
-                              srcSet={`https://erp.skydone.net${designImage.src}`}
+                              srcSet={`https://ecomm.skydone.net${designImage.src}`}
                               type="image/webp"
                             />
                             <img
-                              src={`https://erp.skydone.net${designImage.src}`}
+                              src={`https://ecomm.skydone.net${designImage.src}`}
                               alt={designImage.alt}
                             />
                           </picture>

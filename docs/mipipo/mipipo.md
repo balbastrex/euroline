@@ -187,9 +187,9 @@ import { getAllCategories } from "/api/apiRoutes";
 ...
 
 export async function getStaticPaths() {
-  const Allategories = await getAllCategories();
+  const AllCategories = await getAllCategories();
 
-  const paths = await Allategories.map((category) => ({
+  const paths = await AllCategories.map((category) => ({
     params: { slug: category.slug },
   }));
 

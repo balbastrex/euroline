@@ -13,27 +13,27 @@ const Layout = ({ children, page, content, name }) => {
   const [hideMenu, setHideMenu] = useState(false);
 
   useEffect(() => {
-    const nuevoUpadate = async () => {
+    const nuevoUpdate = async () => {
       const allCategories = await getAllCategories();
       await setCategories(allCategories);
     };
-    nuevoUpadate();
+    nuevoUpdate();
   }, [setCategories]);
 
   return (
     <div>
       <Head>
-        <title>mi pipo - {page}</title>
-        <link rel="shortcut icon" href="/mi_pipo.ico" />
+        <title>Convert Cars - {page}</title>
+        <link rel="shortcut icon" href="/convert_cars.png" />
         <meta name={name} content={content} />
         <meta
           name="keywords"
-          content="bebes, chupetes, personalizados, nombre, grabado, pipo, niño, niña"
+          content="Paragolpes, Faros Luz Diurna, Alerones, Pilotos"
         ></meta>
       </Head>
 
       <Header setHideMenu={setHideMenu} hideMenu={hideMenu} />
-      <TopMenu setHideMenu={setHideMenu} hideMenu={hideMenu} />
+      <TopMenu />
       <Breadcrumbs />
       {children}
       {<Footer />}

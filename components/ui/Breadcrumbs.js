@@ -37,14 +37,26 @@ const Breadcrumbs = () => {
     return null;
   }
 
+  const splitBreadcrumb = (breadcrumb) => {};
+
+  const printBreadcrumb = (breadcrumb) => {
+    return breadcrumb.breadcrumb != "shop" ? (
+      <Link href={breadcrumb.href} key={breadcrumb.href}>
+        <a>{convertBreadcrumb(breadcrumb.breadcrumb)}</a>
+      </Link>
+    ) : null;
+  };
+
   return (
     <section id="breadcrumbs">
       <div className="container breadcrumbs">
         <Link href="/" passHref>
           <a>HOME</a>
         </Link>
-        {breadcrumbs.map((breadcrumb, i) => {
-          return (
+        {breadcrumbs.map((breadcrumb) => {
+          return breadcrumb.breadcrumb.includes("/") ? (
+            splitBreadcrumb(breadcrumb)
+          ) : (
             <Link href={breadcrumb.href} key={breadcrumb.href}>
               <a>{convertBreadcrumb(breadcrumb.breadcrumb)}</a>
             </Link>
