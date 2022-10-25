@@ -14,8 +14,8 @@ export const getAllCategories = async () => {
 // NOTE: Category By Id
 export const getCategoryById = async (categoryId) => {
   try {
-    const response = await clienteAxios.get(`/categories/find/8`);
-    return response.data;
+    const response = await clienteAxios.get(`/categories/find/${categoryId}`);
+    return response.data.data.category;
   } catch (error) {
     "There are an error getting Categories", error;
   }
@@ -301,6 +301,16 @@ export const getSearchProductByString = async (str) => {
   try {
     const response = await clienteAxios.get(`/shop/search/${str}`);
     return response;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+// NOTE: Get contact form fields
+export const getContactForm = async () => {
+  try {
+    const response = await clienteAxios.get(`/cms/forms/contact`);
+    return response.data.data.fields;
   } catch (error) {
     console.log(error);
   }
