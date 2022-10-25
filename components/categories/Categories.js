@@ -144,7 +144,7 @@ function Categories({ selectedCategory, setPrincipalCat, principalCat }) {
                     />
                   </picture>
                   <div className="cartel">
-                    <h5>{principalCat[0].name}</h5>
+                    <h5>{principalCat[0].description}</h5>
                     <span>{ReactHtmlParser(principalCat[0].html)}</span>
                   </div>
                 </>
